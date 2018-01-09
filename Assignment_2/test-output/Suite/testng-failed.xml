@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="Firefox Test(failed)" parallel="tests">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="com.assigntest.TestCase">
+        <methods>
+          <include name="browserClose"/>
+          <include name="browserClose"/>
+          <include name="beforeTest"/>
+          <include name="beforeTest"/>
+          <include name="flightBooking"/>
+        </methods>
+      </class> <!-- com.assigntest.TestCase -->
+    </classes>
+  </test> <!-- Firefox Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="49670" started-at="2018-01-09T05:44:21Z" finished-at="2018-01-09T05:45:10Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="49670" started-at="2018-01-09T05:44:21Z" finished-at="2018-01-09T05:45:10Z">
+      <class name="com.assigntest.TestCase">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.assigntest.TestCase@6a6afff2]" name="beforeTest" is-config="true" duration-ms="2610" started-at="2018-01-09T11:14:21Z" finished-at="2018-01-09T11:14:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:com.assigntest.TestCase@6a6afff2]" name="flightBooking" duration-ms="47026" started-at="2018-01-09T11:14:23Z" finished-at="2018-01-09T11:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBooking -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.assigntest.TestCase@6a6afff2]" name="browserClose" is-config="true" duration-ms="10" started-at="2018-01-09T11:15:10Z" finished-at="2018-01-09T11:15:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.assigntest.TestCase -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
