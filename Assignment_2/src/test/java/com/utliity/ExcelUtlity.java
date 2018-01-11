@@ -12,18 +12,18 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtlity 
 {
-	private static XSSFSheet ExcelWSheet;
+	/*private static XSSFSheet ExcelWSheet;
 	 
 	private static XSSFWorkbook ExcelWBook;
 
 	private static XSSFCell Cell;
 
 	@SuppressWarnings("unused")
-	private static XSSFRow Row;
+	private static XSSFRow Row;*/
 
-public static Object[][] getTableArray(String FilePath, String SheetName) throws Exception {   
+//public static Object[][] getTableArray(String FilePath, String SheetName) throws Exception {   
 
-   String[][] tabArray = null;
+   /*String[][] tabArray = null;
 
    try {
 
@@ -115,7 +115,7 @@ public static String getCellData(int RowNum, int ColNum) throws Exception {
 
 	}
 
-	}
+	}*/
 }
 
 
