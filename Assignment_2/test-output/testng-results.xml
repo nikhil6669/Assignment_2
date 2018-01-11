@@ -1,55 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="108791" started-at="2018-01-09T10:02:41Z" finished-at="2018-01-09T10:04:29Z">
+  <suite name="Default suite" duration-ms="7250" started-at="2018-01-11T07:19:34Z" finished-at="2018-01-11T07:19:41Z">
     <groups>
     </groups>
-    <test name="Chrome" duration-ms="30072" started-at="2018-01-09T10:02:41Z" finished-at="2018-01-09T10:03:11Z">
-      <class name="com.assigntest.TestCase">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.assigntest.TestCase@6a4f787b]" name="beforeTest" is-config="true" duration-ms="3702" started-at="2018-01-09T15:32:41Z" finished-at="2018-01-09T15:32:44Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
+    <test name="Default test" duration-ms="7250" started-at="2018-01-11T07:19:34Z" finished-at="2018-01-11T07:19:41Z">
+      <class name="com.assigntest.Demo">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.assigntest.Demo@3ffc5af1]" name="test" duration-ms="7230" started-at="2018-01-11T12:49:34Z" finished-at="2018-01-11T12:49:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="flightBooking()[pri:0, instance:com.assigntest.TestCase@6a4f787b]" name="flightBooking" duration-ms="24258" started-at="2018-01-09T15:32:44Z" finished-at="2018-01-09T15:33:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightBooking -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.assigntest.TestCase@6a4f787b]" name="browserClose" is-config="true" duration-ms="2093" started-at="2018-01-09T15:33:09Z" finished-at="2018-01-09T15:33:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- com.assigntest.TestCase -->
-    </test> <!-- Chrome -->
-    <test name="Firefox Test" duration-ms="108791" started-at="2018-01-09T10:02:41Z" finished-at="2018-01-09T10:04:29Z">
-      <class name="com.assigntest.TestCase">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.assigntest.TestCase@475530b9]" name="beforeTest" is-config="true" duration-ms="6312" started-at="2018-01-09T15:32:41Z" finished-at="2018-01-09T15:32:47Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="flightBooking()[pri:0, instance:com.assigntest.TestCase@475530b9]" name="flightBooking" duration-ms="102468" started-at="2018-01-09T15:32:47Z" finished-at="2018-01-09T15:34:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- flightBooking -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.assigntest.TestCase@475530b9]" name="browserClose" is-config="true" duration-ms="8" started-at="2018-01-09T15:34:29Z" finished-at="2018-01-09T15:34:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserClose -->
-      </class> <!-- com.assigntest.TestCase -->
-    </test> <!-- Firefox Test -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- test -->
+      </class> <!-- com.assigntest.Demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

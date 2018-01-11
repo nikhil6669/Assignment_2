@@ -6,7 +6,55 @@
   <name>TestCase</name>
   <description>Selenium with testNG and Maven</description>
   
+  <build> 
+		<pluginManagement>				
+		<plugins>
+		<plugin>
+		
+		<groupId>org.apache.maven.plugins</groupId>
+  			<artifactId>maven-dependency-plugin</artifactId>
+  				<version>2.2</version>
+  				
+  				<executions>
+  					<execution>
+  						<id>resource-dependencies</id>
+  						<phase>process-test-resources</phase>
+  						<goals>
+  						<goal>unpack-dependencies</goal>
+  						</goals>
+  				<configuration>
+  				<includeGroupIds>google,microsoft</includeGroupIds>
+  				<includeArtifactsIds>chromedriver,iedriverserver</includeArtifactsIds>
+				<outputDirectory>
+					${project.basedir}/Drivers
+				</outputDirectory>  				
+  			</configuration>
+  					</execution>
+  				</executions>
+		</plugin>
+		
+		
+				<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>2.18.1</version>
+				<configuration>
+					<suiteXmlFiles>
+						<!-- TestNG suite XML files -->
+						<suiteXmlFile>testng.xml</suiteXmlFile>
+					</suiteXmlFiles>
+				</configuration>
+			</plugin>  
+		
+		
+	</plugins>
+	
+	</pluginManagement>
+  </build>
+  
+  
   <dependencies>
+  
   	<dependency>
     	<groupId>org.seleniumhq.selenium</groupId>
     	<artifactId>selenium-java</artifactId>

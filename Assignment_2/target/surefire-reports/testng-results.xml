@@ -1,25 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="49670" started-at="2018-01-09T05:44:21Z" finished-at="2018-01-09T05:45:10Z">
+  <suite name="Suite" duration-ms="43040" started-at="2018-01-11T06:32:28Z" finished-at="2018-01-11T06:33:11Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="49670" started-at="2018-01-09T05:44:21Z" finished-at="2018-01-09T05:45:10Z">
+    <test name="Chrome" duration-ms="27071" started-at="2018-01-11T06:32:28Z" finished-at="2018-01-11T06:32:55Z">
       <class name="com.assigntest.TestCase">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:com.assigntest.TestCase@6a6afff2]" name="beforeTest" is-config="true" duration-ms="2610" started-at="2018-01-09T11:14:21Z" finished-at="2018-01-09T11:14:23Z">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.assigntest.TestCase@2752f6e2]" name="beforeTest" is-config="true" duration-ms="4834" started-at="2018-01-11T12:02:28Z" finished-at="2018-01-11T12:02:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="flightBooking()[pri:0, instance:com.assigntest.TestCase@6a6afff2]" name="flightBooking" duration-ms="47026" started-at="2018-01-09T11:14:23Z" finished-at="2018-01-09T11:15:10Z">
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:com.assigntest.TestCase@2752f6e2]" name="flightBooking" duration-ms="19732" started-at="2018-01-11T12:02:33Z" finished-at="2018-01-11T12:02:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- flightBooking -->
-        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.assigntest.TestCase@6a6afff2]" name="browserClose" is-config="true" duration-ms="10" started-at="2018-01-09T11:15:10Z" finished-at="2018-01-09T11:15:10Z">
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.assigntest.TestCase@2752f6e2]" name="browserClose" is-config="true" duration-ms="2485" started-at="2018-01-11T12:02:53Z" finished-at="2018-01-11T12:02:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserClose -->
       </class> <!-- com.assigntest.TestCase -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+    </test> <!-- Chrome -->
+    <test name="Firefox Test" duration-ms="43040" started-at="2018-01-11T06:32:28Z" finished-at="2018-01-11T06:33:11Z">
+      <class name="com.assigntest.TestCase">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)[pri:0, instance:com.assigntest.TestCase@19bb089b]" name="beforeTest" is-config="true" duration-ms="5283" started-at="2018-01-11T12:02:28Z" finished-at="2018-01-11T12:02:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="flightBooking()[pri:0, instance:com.assigntest.TestCase@19bb089b]" name="flightBooking" duration-ms="37712" started-at="2018-01-11T12:02:34Z" finished-at="2018-01-11T12:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightBooking -->
+        <test-method status="PASS" signature="browserClose()[pri:0, instance:com.assigntest.TestCase@19bb089b]" name="browserClose" is-config="true" duration-ms="40" started-at="2018-01-11T12:03:11Z" finished-at="2018-01-11T12:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.assigntest.TestCase -->
+    </test> <!-- Firefox Test -->
+  </suite> <!-- Suite -->
 </testng-results>

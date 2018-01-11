@@ -22,7 +22,7 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_152">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
@@ -45,5 +45,19 @@
 	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/poi-bin-3.17-20170915/poi-3.17/lib/commons-logging-1.2.jar"/>
 	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/poi-bin-3.17-20170915/poi-3.17/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/poi-bin-3.17-20170915/poi-3.17/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/extentreports-3.0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/bsh-2.0b4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/nikhil.bhalerao/Downloads/extentreports-java-3.0.6/extentreports-java-3.0.6/lib/testng-6.9.10.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
