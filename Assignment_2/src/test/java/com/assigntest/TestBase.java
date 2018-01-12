@@ -96,6 +96,8 @@ public class TestBase {
         htmlReporter.config().setTheme(Theme.DARK);
     }
 	
+	
+	
 	@AfterMethod
     public void getResult(ITestResult result)
     {
@@ -114,7 +116,7 @@ public class TestBase {
             test.skip(result.getThrowable());
         }
     }
-     
+	
     @AfterSuite
     public void tearDown()
     {
