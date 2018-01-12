@@ -45,6 +45,7 @@ public class TestCase extends TestBase {
 
 	@Test
 	public void flightBooking() {
+		test = extent.createTest("Flight Booking");
 		waitImplictly();
 
 		Properties prop = new Properties();
@@ -93,10 +94,12 @@ public class TestCase extends TestBase {
 		// screenShot();
 	}
 
-	/*
-	 * @Test public void testToFail() {
-	 * System.out.println("This method to test fail"); Assert.assertTrue(false); }
-	 */
+	
+	 /* @Test 
+	  public void testToFail() {
+	  System.out.println("This method to test fail"); Assert.assertTrue(false); 
+	  }*/
+	 
 
 	@AfterTest
 	public void browserClose() {

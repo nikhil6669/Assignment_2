@@ -6,12 +6,13 @@ import org.testng.annotations.Test;
 
 public class Demo 
 {
-	@Test
+	/*@Test
 	public void test()
 	{
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\nikhil.bhalerao\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver  = new ChromeDriver();
 		driver.get("https://www.orbitz.com/");
-	}
+	}*/
+	
 		
 }

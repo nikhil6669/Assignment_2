@@ -49,12 +49,12 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\Assignment\loadtest\testng.xml</span>
+                    <span>C:\Users\nikhil.bhalerao\git\Assignment_2\Assignment_2\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
                   <a href="#" class="navigator-link " panel-name="testlist-Suite">
-                    <span class="test-stats">2 tests</span>
+                    <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
                     </span>
                     <div class="method-list-content passed suite-Suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.assigntest.TestCase" hash-for-method="flightBooking">flightBooking</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.assigntest.TestCase" hash-for-method="flightBooking">flightBooking</a> <!-- method navigator-link -->
@@ -135,37 +130,24 @@
                   <span class="method-name">flightBooking</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="flightBooking">
-                  </a> <!-- flightBooking -->
-                  <span class="method-name">flightBooking</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Assignment\loadtest\testng.xml</span>
+            <span class="header-content">C:\Users\nikhil.bhalerao\git\Assignment_2\Assignment_2\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot; parallel=&quot;tests&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;test name=&quot;Firefox Test&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;Firefox&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.assigntest.TestCase&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Firefox Test --&gt;
-  &lt;test name=&quot;Chrome&quot;&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;com.assigntest.TestCase&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Chrome --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -178,9 +160,6 @@
             <ul>
               <li>
                 <span class="test-name">Firefox Test (1 class)</span>
-              </li>
-              <li>
-                <span class="test-name">Chrome (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -206,20 +185,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'flightBooking')
 data.setCell(0, 2, 'com.assigntest.TestCase')
-data.setCell(0, 3, 37712);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'flightBooking')
-data.setCell(1, 2, 'com.assigntest.TestCase')
-data.setCell(1, 3, 19732);
+data.setCell(0, 3, 160231);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 57 seconds</span>
+              <span class="suite-total-time">Total running time: 2 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -246,30 +221,30 @@ return data;
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
               <div class="chronological-class-name">com.assigntest.TestCase</div> <!-- chronological-class-name -->
-              <div class="configuration-test before">
-                <span class="method-name">beforeTest(chrome)</span>
+              <div class="configuration-suite before">
+                <span class="method-name">startReport</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-test before -->
+              </div> <!-- configuration-suite before -->
               <div class="configuration-test before">
                 <span class="method-name">beforeTest(Firefox)</span>
-                <span class="method-start">0 ms</span>
+                <span class="method-start">217 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">flightBooking</span>
-                <span class="method-start">4849 ms</span>
+                <span class="method-start">3477 ms</span>
               </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">flightBooking</span>
-                <span class="method-start">5283 ms</span>
-              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=flightBooking status=SUCCESS method=TestCase.flightBooking()[pri:0, instance:com.as...)</span>
+                <span class="method-start">163708 ms</span>
+              </div> <!-- configuration-method after -->
               <div class="configuration-test after">
                 <span class="method-name">browserClose</span>
-                <span class="method-start">24582 ms</span>
+                <span class="method-start">163722 ms</span>
               </div> <!-- configuration-test after -->
-              <div class="configuration-test after">
-                <span class="method-name">browserClose</span>
-                <span class="method-start">42996 ms</span>
-              </div> <!-- configuration-test after -->
+              <div class="configuration-suite after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">165432 ms</span>
+              </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

@@ -1,14 +1,30 @@
 package com.utliity;
 
-/*import org.testng.annotations.BeforeTest;
+import java.util.List;
+
+import org.testng.Assert;
+import org.testng.IReporter;
+import org.testng.ISuite;
+import org.testng.ITestResult;
+import org.testng.SkipException;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+import org.testng.xml.XmlSuite;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import com.aventstack.extentreports.reporter.ExtentHtmlReporter;*/
+import com.aventstack.extentreports.Status;
+import com.aventstack.extentreports.markuputils.ExtentColor;
+import com.aventstack.extentreports.markuputils.MarkupHelper;
+import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
+import com.aventstack.extentreports.reporter.configuration.ChartLocation;
+import com.aventstack.extentreports.reporter.configuration.Theme;
 
-public class GenerateExtentReport 
+public class GenerateExtentReport implements IReporter
 {
-	/*ExtentHtmlReporter htmlReporter;
+	ExtentHtmlReporter htmlReporter;
     ExtentReports extent;
     ExtentTest test;
          
@@ -19,10 +35,10 @@ public class GenerateExtentReport
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
          
-        extent.setSystemInfo("OS", "Mac Sierra");
-        extent.setSystemInfo("Host Name", "Krishna");
-        extent.setSystemInfo("Environment", "QA");
-        extent.setSystemInfo("User Name", "Krishna Sakinala");
+        extent.setSystemInfo("OS", "Windows 10");
+        extent.setSystemInfo("Host Name", "Nikhil");
+        extent.setSystemInfo("Environment", "QA - Automation");
+        extent.setSystemInfo("User Name", "Nikhil Bhalerao");
          
         htmlReporter.config().setChartVisibilityOnOpen(true);
         htmlReporter.config().setDocumentTitle("AutomationTesting.in Demo Report");
@@ -68,12 +84,18 @@ public class GenerateExtentReport
         {
             test.log(Status.SKIP, MarkupHelper.createLabel(result.getName()+" Test Case SKIPPED", ExtentColor.ORANGE));
             test.skip(result.getThrowable());
-        }*/
-    /*}
+        }
+    }
      
     @AfterTest
     public void tearDown()
     {
         extent.flush();
-    }*/
+    }
+
+	@Override
+	public void generateReport(List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) {
+		// TODO Auto-generated method stub
+		
+	}
 }
